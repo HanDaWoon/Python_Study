@@ -6,6 +6,7 @@ print("첫 번째 문자 :", strin[0])
 print("두 번째 문자 :", strin[1])
 print("마지막 문자 :", strin[len(strin)-1])
 
+# 문자열의 마지막을 나타내는 인덱스 [-1] 사용 : strin[-1]
 
 print()
 print("/*-+"*50)
@@ -23,7 +24,8 @@ for i in range(len(strin)):
 print("\n역순 개별 문자 출력 : ", end="")
 for i in range(len(strin)-1, -1, -1):
     print(strin[i], end="")
-
+    
+# strln = strin[::-1]을 이용하여 문자를 역순으로 정렬 후 for i in strin: print(i. end="") 이용하여 출력
 
 print()
 print()
